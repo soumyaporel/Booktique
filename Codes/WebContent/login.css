@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background:
+		url(https://images.pexels.com/photos/938965/pexels-photo-938965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100%;
+}
+
+.login {
+	background: rgba(10, 20, 30, 0.7);
+	padding: 40px;
+	width: 250px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+input {
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+
+input[type=submit] {
+	border: none;
+	background: #00c9ff;
+	color: white;
+	font-size: 23px;
+	line-height: 25px;
+	padding: 10px 0px;
+	width: 190px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #00ffae;
+	color: white;
+}
+
+a {
+	color: yellow;
+	text-decoration: blink;
+}
+
+a:hover {
+	color: cyan;
+}
+
+::placeholder {
+	color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		padding: 0% 0% 0% 0%;
+	}
+	.login {
+		padding: 5% 2% 12% 2%;
+		width: 90%;
+		height: 100%;
+	}
+	input {
+		width: 70%;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 200px;
+		padding: 5% 2% 2% 2%;
+	}
+	input[type=submit] {
+		font-size: 23px;
+		line-height: 25px;
+		padding: 5% 2% 5% 2%;
+		width: 50%;
+		border-radius: 25px;
+	}
+}
